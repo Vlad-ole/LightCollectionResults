@@ -1,0 +1,40 @@
+[Digitizer]
+ch.0 = FALSE
+ch.1 = TRUE
+DC offset 0 = 0
+DC offset 1 = 0
+act ch. = 1
+trig mode = TRUE
+rise time = 8
+trig mean = 8
+trig thr 0 = 30
+trig thr 1 = 250
+gate mode = FALSE
+gate width = 504
+pre gate = 40
+holdoff = 504
+bsln mean = 64
+bsln thr = 50
+noflattime = 512
+GPO = 2
+coinc = FALSE
+coinc time = 0
+
+[PSAU]
+ch.0 = FALSE
+ch.1 = FALSE
+Vset 0 = 30.900000
+Vset 1 = 71.000000
+Gain0 = 32
+Gain1 = 32
+comp0 = FALSE
+comp1 = FALSE
+thr0 = -14.000000
+thr1 = -15.000000
+width0 = 110
+width1 = 110
+DOUT0 = FALSE
+DOUT1 = FALSE
+coinc = FALSE
+coinc time = 20
+outputlevel = 1
